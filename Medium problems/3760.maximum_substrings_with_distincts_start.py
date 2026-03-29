@@ -1,3 +1,5 @@
+# Medium problem
+
 class Solution:
     def maxDistinct(self, s: str) -> int:
         return len({x for x in set(s)})
